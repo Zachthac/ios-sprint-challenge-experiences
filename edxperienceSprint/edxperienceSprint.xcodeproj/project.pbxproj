@@ -12,6 +12,8 @@
 		465BCE622558DF55003B5910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BCE602558DF55003B5910 /* Main.storyboard */; };
 		465BCE642558DF56003B5910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465BCE632558DF56003B5910 /* Assets.xcassets */; };
 		465BCE672558DF56003B5910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BCE652558DF56003B5910 /* LaunchScreen.storyboard */; };
+		465BCE712558EF17003B5910 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BCE702558EF17003B5910 /* MapViewController.swift */; };
+		465BCE762559C129003B5910 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BCE752559C129003B5910 /* Spot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		465BCE632558DF56003B5910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465BCE662558DF56003B5910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465BCE682558DF56003B5910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465BCE702558EF17003B5910 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		465BCE752559C129003B5910 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		465BCE592558DF55003B5910 /* edxperienceSprint */ = {
 			isa = PBXGroup;
 			children = (
+				465BCE742559C11C003B5910 /* Models */,
+				465BCE732559B720003B5910 /* View Controllers */,
 				465BCE5A2558DF55003B5910 /* AppDelegate.swift */,
 				465BCE5C2558DF55003B5910 /* SceneDelegate.swift */,
 				465BCE602558DF55003B5910 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				465BCE682558DF56003B5910 /* Info.plist */,
 			);
 			path = edxperienceSprint;
+			sourceTree = "<group>";
+		};
+		465BCE732559B720003B5910 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				465BCE702558EF17003B5910 /* MapViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		465BCE742559C11C003B5910 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				465BCE752559C129003B5910 /* Spot.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				465BCE5B2558DF55003B5910 /* AppDelegate.swift in Sources */,
+				465BCE712558EF17003B5910 /* MapViewController.swift in Sources */,
 				465BCE5D2558DF55003B5910 /* SceneDelegate.swift in Sources */,
+				465BCE762559C129003B5910 /* Spot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
